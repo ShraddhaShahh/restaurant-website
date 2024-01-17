@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us!</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Contact Us" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" ? />
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="header">
+                    <a href="index.html">
+                        <img
+                            class="logo"
+                            src="img/Olio's option1.png"
+                            alt="logo"
+                        />
+                    </a>
+                    <div class="nav">
+                        <ol>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="drinks.html">Drinks</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <h1>Contact Us!</h1>
+            <div class="contact-us">
+                <div class="form">
+                    <form action="php/handler.php" method="get">
+                        <fieldset>
+                            <label for="name">Name:</label>
+                            <br>
+                            <br>
+                            <input
+                                type="text"
+                                name="f_name"
+                                id="name"
+                                class="margin-input"
+                            />
+
+                            <br>
+                            <br>
+
+                            <label for="number">Phone:</label>
+                            <br>
+                            <br>
+                            <input
+                                type="number"
+                                name="number"
+                                id="number"
+                                class="margin-input"
+                            />
+
+                            <br>
+                            <br>
+
+                            <select name="days">
+                                <option value="day-select">Select Day</option>
+                                <option value="sunday">Sunday</option>
+                                <option value="monday">Monday</option>
+                                <option value="tuesday">Tuesday</option>
+                                <option value="wednesday">Wednesday</option>
+                                <option value="thursday">Thursday</option>
+                                <option value="friday">Friday</option>
+                                <option value="saturday">Saturday</option>
+                            </select>
+
+                            
+
+                            <select name="hours">
+                                <option value="hour-select">Select Hour</option>
+                                <option value="10">10: 00</option>
+                                <option value="10">12: 00</option>
+                                <option value="10">14: 00</option>
+                                <option value="10">16: 00</option>
+                                <option value="10">18: 00</option>
+                                <option value="10">20: 00</option>
+                                <option value="10">22: 00</option>
+                            </select>
+
+                            <br>
+                            <br>
+
+                            <input type="submit" class="submit-btn">
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="address">
+                    <h1>Find Us!</h1>
+                    <p class="address-text">
+                        1835 Yonge St Unit 101, <br>
+                        Toronto, ON M4S 1X8
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
