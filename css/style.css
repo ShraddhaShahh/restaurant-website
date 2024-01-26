@@ -24,7 +24,9 @@ body {
     height: 80vh;
     background-image: url(../img/banner1.png);
     background-size: 100%;
+	background-size: cover;
 }
+
 /* Banner image - Photo by Jason Leung on Unsplash */
 
 /* Logo + Nav Bar */
